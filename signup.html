@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
+    <link rel="icon" href="images/favicon.ico">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.79.0">
     <title>Newsletter SignUp</title>
@@ -40,6 +41,20 @@
           font-size: 3.5rem;
         }
       }
+
+      a:link, a:visited {
+        background-color: #355eb8;
+        color: white;
+        padding: 14px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin-left: 70%;
+      }
+
+      a:hover, a:active {
+        background-color: rgb(13, 121, 163);
+      }
     </style>
 
 
@@ -47,18 +62,22 @@
     <link rel="stylesheet" href="css/styles.css">
   </head>
   <body class="text-center">
-
-<main class="form-signin">
-  <form  action="/" method="post">
-    <img class="mb-4" src="images/favicon.ico" alt="" width="72" height="57">
-    <h1 class="h3 mb-3 fw-normal">Signup to My Newsletter</h1>
-    <input type="text" class="form-control top" name="fName" placeholder="First Name" required autofocus>
-    <input type="text" class="form-control middle" name="lName" placeholder="Last Name" required>
-    <input type="email" class="form-control bot" name="email" placeholder="Email" required>
-    <button class="w-100 btn btn-lg btn-primary" type="submit">Sign Me Up!</button>
-    <p class="mt-5 mb-3 text-muted">@ P J</p>
-  </form>
-</main>
+  
+    <div>
+      <a class="homeUrl" href="https://www.jpeiyi.com">Back to Home Page</a>
+    </div>
+    
+    <main class="form-signin">
+      <form  action="/" method="post">
+        <img class="mb-4" src="images/android-chrome-192x192.png" alt="" width="40%" height="40%">
+        <h1 class="h3 mb-3 fw-normal">Signup to My Newsletter</h1>
+        <input type="text" class="form-control top" name="fName" placeholder="First Name" required autofocus>
+        <input type="text" class="form-control middle" name="lName" placeholder="Last Name" required>
+        <input type="email" class="form-control bot" name="email" placeholder="Email" required>
+        <button class="w-100 btn btn-lg btn-primary" type="submit">Sign Me Up!</button>
+        <p class="mt-5 mb-3 text-muted">@ P J</p>
+      </form>
+    </main>
 
 
 
